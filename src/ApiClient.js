@@ -32,9 +32,9 @@ class ApiClient {
         /**
          * The base URL against which to resolve every API call's (relative) path.
          * @type {String}
-         * @default http://83.212.100.226:4008/v1
+         * @default https://83.212.100.226:4008/v1
          */
-        this.basePath = 'http://83.212.100.226:4008/v1'.replace(/\/+$/, '');
+        this.basePath = 'https://83.212.100.226:4008/v1'.replace(/\/+$/, '');
 
         /**
          * The authentication methods to be included for all API calls.
@@ -585,7 +585,7 @@ class ApiClient {
     hostSettings() {
         return [
             {
-              'url': "http://83.212.100.226:4008/v1",
+              'url': "https://83.212.100.226:4008/v1",
               'description': "wabli-deploy-test",
             }
       ];

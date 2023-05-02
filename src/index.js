@@ -13,8 +13,8 @@
 
 
 import ApiClient from './ApiClient';
-import Posts from './model/Posts';
-import PostsApi from './api/PostsApi';
+import Descs from './model/Descs';
+import DescsApi from './api/DescsApi';
 
 
 /**
@@ -56,16 +56,16 @@ export {
     ApiClient,
 
     /**
-     * The Posts model constructor.
-     * @property {module:model/Posts}
+     * The Descs model constructor.
+     * @property {module:model/Descs}
      */
-    Posts,
+    Descs,
 
     /**
-    * The PostsApi service constructor.
-    * @property {module:api/PostsApi}
+    * The DescsApi service constructor.
+    * @property {module:api/DescsApi}
     */
-    PostsApi
+    DescsApi
 };
 
 export default {
@@ -76,14 +76,14 @@ export default {
     ApiClient,
 
     /**
-     * The Posts model constructor.
-     * @property {module:model/Posts}
+     * The Descs model constructor.
+     * @property {module:model/Descs}
      */
-    Posts,
+    Descs,
 
     /**
-    * The PostsApi service constructor.
-    * @property {module:api/PostsApi}
+    * The DescsApi service constructor.
+    * @property {module:api/DescsApi}
     */
-    PostsApi
+    DescsApi
 };
